@@ -164,7 +164,7 @@ cython_debug/
 mlenv/
 env/
 *env/
-
+.DS_Store
 # データをgithubに上げないための設定
 input/
 output/
