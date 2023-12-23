@@ -1,2 +1,2 @@
-### competition url
+### compettition url
 https://www.kaggle.com/competitions/playground-series-s3e25
