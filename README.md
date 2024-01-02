@@ -1,7 +1,7 @@
 # MLBCU
 
-## makeコマンド
-### 初期設定
+# makeコマンド
+## 初期設定
 
 venvに入り
 ```
@@ -36,7 +36,7 @@ export KAGGLE_KEY=xxxxxxxxxxxxxx
 詳しくは https://github.com/Kaggle/kaggle-api?tab=readme-ov-file
 
 
-### コマンド
+## コマンド
 
 \<コンペティション名\>/\<ユーザー名\>/下で使用できるコマンド。
 例えば/playground-series-s4e1/koichi/下で使用できる。
