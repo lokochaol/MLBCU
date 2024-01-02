@@ -20,7 +20,7 @@ Macなら
 に指定。
 
 
-ダウンロードした、kaggle.jsonのを開き、その内容を元に、
+ダウンロードしたkaggle.jsonのを開き、その内容を元に、
 
 windows & bashなら
     C:\Users\<Windows-username>\.bashrc
