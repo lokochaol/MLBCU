@@ -42,7 +42,7 @@ export KAGGLE_KEY=xxxxxxxxxxxxxx
 例えば/playground-series-s4e1/koichi/下で使用できる。
 
 ```
-make download_data
+make download
 ```
 使用するデータ(train.csv, test.csv, sumple_aubmission.csv)をダウンロードしてカレントディレクトリに配置
 
