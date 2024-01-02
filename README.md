@@ -37,6 +37,10 @@ export KAGGLE_KEY=xxxxxxxxxxxxxx
 
 
 ### コマンド
+
+\<コンペティション名\>/\<ユーザー名\>/下で使用できるコマンド。
+例えば/playground-series-s4e1/koichi/下で使用できる。
+
 ```
 make download_data
 ```
