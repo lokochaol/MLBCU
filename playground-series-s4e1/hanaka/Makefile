@@ -1,6 +1,7 @@
 CURRENT_DIR := $(shell pwd)
 PARENT_DIR := $(shell dirname $(CURRENT_DIR))
 BASENAME := $(shell basename $(PARENT_DIR))
+TIMES_OF := 1
 
 run:
 	@echo Watch file changes and run test
@@ -13,17 +14,12 @@ run:
 watch:
 	@$(MAKE) run file=$(file)
 
-download:
-	@echo Download data
-	@kaggle competitions download -c $(BASENAME)
-	@unzip $(BASENAME).zip
-	@rm $(BASENAME).zip
-
 submit:
-	@echo Submit to kaggle
-	@bash ~/ML_python/MLBCU/utils/submit.sh $(BASENAME)
+	@echo $(times) Submit to kaggle
+	@bash ~/ML_python/ml_utils/count.sh
+	@kaggle competitions submit -c $(BASENAME) -f submission.csv -m "submission"
 
 print_parent_dir:
 	@echo $(BASENAME)
 
-.PHONY: run watch submit download print_parent_dir
+.PHONY: run watch submit
