@@ -33,7 +33,7 @@ mac & bashなら
 export KAGGLE_USERNAME=datadinosaur
 export KAGGLE_KEY=xxxxxxxxxxxxxx
 ```
-
+詳しくは https://github.com/Kaggle/kaggle-api?tab=readme-ov-file
 
 
 ### コマンド
