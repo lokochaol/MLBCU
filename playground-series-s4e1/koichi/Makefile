@@ -1,6 +1,7 @@
 CURRENT_DIR := $(shell pwd)
 PARENT_DIR := $(shell dirname $(CURRENT_DIR))
 BASENAME := $(shell basename $(PARENT_DIR))
+TIMES_OF := 1
 
 run:
 	@echo Watch file changes and run test
@@ -15,7 +16,8 @@ watch:
 
 submit:
 	@echo $(times) Submit to kaggle
-	@kaggle competitions submit -c $(project) -f submission.csv -m "$(times) submission"
+	@bash ~/ML_python/ml_utils/count.sh
+	@kaggle competitions submit -c $(BASENAME) -f submission.csv -m "submission"
 
 print_parent_dir:
 	@echo $(BASENAME)

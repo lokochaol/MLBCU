@@ -168,3 +168,6 @@ env/
 # データをgithubに上げないための設定
 input/
 output/
+
+*.zip
+count.txt
