@@ -80,7 +80,7 @@ test = test.drop(["id", "CustomerId", "Surname"], axis=1)
 test["Geography"] = le.fit_transform(test["Geography"])
 test["Gender"] = le.fit_transform(test["Gender"])
 print(test.head(3))
-prediction = model_xg.predict(test)
+prediction = model_xg.predict_proba(test)[:, 1]
 output = pd.DataFrame({"id": test_id, "Exited": prediction})
 print(output)
 output.to_csv("submission.csv", index=False)
