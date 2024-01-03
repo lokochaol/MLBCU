@@ -41,13 +41,13 @@ export KAGGLE_KEY=xxxxxxxxxxxxxx
 \<コンペティション名\>/\<ユーザー名\>/下で使用できるコマンド。
 例えば/playground-series-s4e1/koichi/下で使用できる。
 
-###csvファイルのダウンロード
+###　csvファイルのダウンロード
 ```
 make download
 ```
 使用するデータ(train.csv, test.csv, sumple_aubmission.csv)をダウンロードしてカレントディレクトリに配置
 
-### 課題のteisyutu
+### 提出
 前提: 提出するcsvのファイル名が"submission.csv"
 ```
 make submit
