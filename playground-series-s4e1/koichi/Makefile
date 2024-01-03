@@ -13,6 +13,10 @@ run:
 watch:
 	@$(MAKE) run file=$(file)
 
+test:
+	@echo Run test $(file)
+	python $(file)
+
 download:
 	@echo Download data
 	@kaggle competitions download -c $(BASENAME)
@@ -26,4 +30,4 @@ submit:
 print_parent_dir:
 	@echo $(BASENAME)
 
-.PHONY: run watch submit download print_parent_dir
+.PHONY: run watch test submit download print_parent_dir
