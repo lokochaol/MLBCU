@@ -41,7 +41,7 @@ export KAGGLE_KEY=xxxxxxxxxxxxxx
 \<コンペティション名\>/\<ユーザー名\>/下で使用できるコマンド。
 例えば/playground-series-s4e1/koichi/下で使用できる。
 
-###　csvファイルのダウンロード
+### csvファイルのダウンロード
 ```
 make download
 ```
