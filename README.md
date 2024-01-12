@@ -17,10 +17,9 @@ windowsなら
     C:\Users\<Windows-username>\.kaggle\kaggle.json
 Macなら
     ~/.kaggle/kaggle.json
-に指定。
+に指定すればよい。
 
-
-ダウンロードしたkaggle.jsonのを開き、その内容を元に、
+または，ダウンロードしたkggle.jsonのを開き、その内容を元に、
 
 windows & bashなら
     C:\Users\<Windows-username>\.bashrc
